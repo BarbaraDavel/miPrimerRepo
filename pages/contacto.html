@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> 
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div class="contact_form">
+
+        <div class="formulario">
+            <h1>Ponete en contacto con nosotros</h1>
+
+
+            <form action="submeter-formulario.php" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre y Apellido</label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email</label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="email@email.com.ar">
+                </p>
+
+                <p>
+                    <label for="telefono" class="colocar_telefono">Teléfono</label>
+                    <input type="tel" name="introducir_telefono" id="telefono" required="obligatorio" placeholder="3764.....">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje</label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Dejanos tu mensaje"></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+
+    <a href="https://www.posadas.gov.ar/">
+        <center>
+            <footer>Municipalidad de Posadas</footer>
+        </center>
+    </a>
+</body>
+
+</html>
